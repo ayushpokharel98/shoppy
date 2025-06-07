@@ -1,6 +1,6 @@
 import { useState } from "react";
 import api from "../services/api";
-import { FaInfoCircle } from "react-icons/fa";
+import { FaInfoCircle, FaTimes } from "react-icons/fa";
 
 const ProductCard = ({ product }) => {
   const [error, setError] = useState("");
